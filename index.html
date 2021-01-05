@@ -1,0 +1,81 @@
+<head>
+  <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+  <title>ClassMate </title>
+  <style>
+    body{
+      background: linear-gradient(90deg, rgba(2,0,36,1) 0%,                     rgba(9,9,121,1) 39%, rgba(0,212,255,1) 100%);
+      width:95vw;
+      margin:0px;
+    }
+    #table1{
+      text-align:center;
+      width:100vw;
+      height:100vh;
+    }
+    #tbtd2{
+      width:40vw;
+    }
+    .or_line{
+      width:20vw;
+      height:0px;
+      margin: 10px 10px;
+    }
+    #line{
+      display:flex;
+    }
+    input{
+      margin-top:5px;
+      padding:10px;
+      box-sizing :border-box;
+      width: 30vw;
+      height:3.5vh;
+      color:white;
+      background-color:black;
+      transition: background-color 0.2s ease-in-out;
+    }
+    input:focus {
+      background-color:white;
+      color:black;
+    }
+    input[type=button]{
+      width:15vw;
+      cursor: pointer;
+     }
+    
+  </style>
+</head>
+<body>
+    
+    <table id="table1">
+      <tr>
+        <td>
+          <img src="#" alt="logo">
+          <p>ClassMate</p>
+        </td>
+        <td id="tbtd2">
+          <h2>By default your roll number is your password</h2>
+          <h3>Get your class code from your class representative</h3>
+          <form action="">
+            
+            <input type="text" name="" value="" placeholder="Class Code">
+            <br>
+            <input type="number" name="" value="" placeholder="Roll / ID">
+            <br>
+            <input type="password" name="" value="" placeholder="Password">
+            <br>
+            <input type="button" name="Login" value="Log in">
+            <br>
+            <input type="button" name="Login" value="Forget Password">  
+            <br>
+            <div id="line">
+            <hr class="or_line">  or <hr class="or_line">
+            </div>
+            <br>
+            <input type="button" name="Login" value="Creat class">  
+          </form>
+          
+          
+        </td>
+      </tr>
+    </table>
+</body>
