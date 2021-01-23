@@ -1,0 +1,9 @@
+bg : revailing full blood grp name 
+
+
+routine : set time input in duration menu  
+
+
+
+
+add app download tab 
